@@ -1,4 +1,4 @@
-# Privacy Policy
+# My Dance Record Privacy Policy
 
 
 This app does not require an account and does not collect, track, or transmit any personal data.
@@ -9,4 +9,4 @@ The app does not use analytics, advertising, or tracking technologies.
 
 Users may choose to share photos or files using Apple’s standard sharing features. Any sharing is initiated explicitly by the user and controlled by the destination they choose.
 
-If you have questions about privacy, contact: mydancerecord@gmail.com
+If you have questions about privacy, contact: app.inventory.me@gmail.com
