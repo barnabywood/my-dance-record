@@ -11,11 +11,10 @@
       color-scheme: light;
       --ink: #151228;
       --muted: #5d6680;
-      --paper: #eff8ff;
+      --paper: #f3f9ff;
       --purple: #5b2eff;
       --blue: #7ecbff;
       --pink: #ff6fb7;
-      --card: rgba(255, 255, 255, 0.8);
     }
 
     * {
@@ -26,13 +25,12 @@
       margin: 0;
       min-height: 100vh;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.65;
+      line-height: 1.6;
       color: var(--ink);
       background:
-        radial-gradient(circle at top left, rgba(255, 111, 183, 0.24), transparent 31rem),
-        radial-gradient(circle at top right, rgba(91, 46, 255, 0.22), transparent 34rem),
-        radial-gradient(circle at bottom left, rgba(126, 203, 255, 0.44), transparent 36rem),
-        linear-gradient(145deg, #f9fbff 0%, var(--paper) 54%, #f7efff 100%);
+        radial-gradient(circle at top left, rgba(255, 111, 183, 0.32), transparent 34rem),
+        radial-gradient(circle at bottom right, rgba(126, 203, 255, 0.34), transparent 32rem),
+        var(--paper);
     }
 
     main {
@@ -42,22 +40,12 @@
     }
 
     .card {
-      position: relative;
-      overflow: hidden;
       padding: clamp(1.25rem, 4vw, 3rem);
-      border: 1px solid rgba(91, 46, 255, 0.12);
+      border: 1px solid rgba(21, 18, 40, 0.12);
       border-radius: 28px;
-      background: var(--card);
+      background: rgba(255, 255, 255, 0.76);
       box-shadow: 0 24px 80px rgba(21, 18, 40, 0.13);
       backdrop-filter: blur(18px);
-    }
-
-    .card::before {
-      content: "";
-      position: absolute;
-      inset: 0 0 auto;
-      height: 0.35rem;
-      background: linear-gradient(90deg, var(--pink), var(--purple), var(--blue));
     }
 
     h1 {
@@ -69,7 +57,7 @@
 
     h2 {
       margin: 2rem 0 0.5rem;
-      font-size: 1.08rem;
+      font-size: 1.1rem;
       color: var(--purple);
     }
 
@@ -108,7 +96,7 @@
 
     .language span {
       color: white;
-      background: var(--purple);
+      background: linear-gradient(135deg, var(--purple), var(--pink));
     }
 
     .language a {
@@ -153,22 +141,22 @@
       <p>Photos, exported PDFs, backup files, and social images remain on the device unless the user chooses to save, export, or share them. Any sharing is started explicitly by the user and controlled by the destination they choose.</p>
 
       <h2>4. Calendar Entries</h2>
-      <p>If the user enables Apple Calendar entries, the app may add or update event details such as event name, dancer name, date, and location in the calendar selected by the user. Calendar access can be changed at any time in iOS Settings.</p>
+      <p>If the user enables calendar entries, the app may add or update event details such as event name, dancer name, date, and location in the calendar selected by the user. Calendar access can be changed at any time in device settings.</p>
 
       <h2>5. Analytics, Advertising, and Tracking</h2>
       <p>The app does not use third-party analytics, advertising, targeted advertising, or tracking technologies.</p>
 
       <h2>6. Sharing</h2>
-      <p>Users may choose to share photos or files using Apple's standard sharing features, such as Mail, Messages, AirDrop, Files, or other destinations available on their device. My Dance Record does not control the privacy practices of destinations chosen by the user.</p>
+      <p>Users may choose to share photos or files using standard device sharing features, such as email, messages, files, photos, cloud storage, or other destinations available on their device. My Dance Record does not control the privacy practices of destinations chosen by the user.</p>
 
       <h2>7. Retention and Deletion</h2>
-      <p>Users control the information stored in the app. App data can be edited, exported, reset, or removed by uninstalling the app, subject to normal iOS backup and device-management behaviour.</p>
+      <p>Users control the information stored in the app. App data can be edited, exported, reset, or removed by uninstalling the app, subject to normal device backup and device-management behaviour.</p>
 
       <h2>8. Changes to This Policy</h2>
       <p>This policy may be updated from time to time. When it changes, the effective date above will be updated.</p>
 
       <h2>9. Contact</h2>
-      <p>If you have privacy questions, contact <a class="contact" href="mailto:app.inventory.me@gmail.com">app.inventory.me@gmail.com</a>.</p>
+      <p>If you have privacy questions, contact <a class="contact" href="mailto:app.my.inventory@gmail.com">app.my.inventory@gmail.com</a>.</p>
     </article>
   </main>
 </body>
