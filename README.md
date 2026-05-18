@@ -11,3 +11,6 @@ Published pages:
 - French: `fr.html`
 - Italian: `it.html`
 - Spanish: `es.html`
+- Polish: `pl.html`
+- Dutch: `nl.html`
+- Czech: `cs.html`
