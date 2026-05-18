@@ -17,9 +17,7 @@
       --pink: #ff6fb7;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -61,14 +59,9 @@
       color: var(--purple);
     }
 
-    p,
-    li {
-      color: var(--muted);
-    }
+    p, li { color: var(--muted); }
 
-    ul {
-      padding-left: 1.2rem;
-    }
+    ul { padding-left: 1.2rem; }
 
     .meta {
       margin: 0 0 2rem;
@@ -78,6 +71,7 @@
 
     .language {
       display: inline-flex;
+      flex-wrap: wrap;
       gap: 0.45rem;
       margin: 0 0 1.5rem;
       padding: 0.35rem;
@@ -99,9 +93,7 @@
       background: linear-gradient(135deg, var(--purple), var(--pink));
     }
 
-    .language a {
-      color: var(--purple);
-    }
+    .language a { color: var(--purple); }
 
     .contact {
       display: inline-block;
@@ -113,9 +105,7 @@
     .contact:focus,
     .contact:hover,
     .language a:focus,
-    .language a:hover {
-      text-decoration: underline;
-    }
+    .language a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -124,6 +114,9 @@
       <nav class="language" aria-label="Sprache">
         <a href="index.html" hreflang="en">English</a>
         <span>Deutsch</span>
+        <a href="fr.html" hreflang="fr">Français</a>
+        <a href="it.html" hreflang="it">Italiano</a>
+        <a href="es.html" hreflang="es">Español</a>
       </nav>
 
       <h1>My Dance Record Datenschutzerklärung</h1>
@@ -133,28 +126,20 @@
 
       <h2>1. Konto und personenbezogene Daten</h2>
       <p>Die App erfordert kein Konto und erhebt, verfolgt oder übermittelt keine personenbezogenen Daten an Server von My Dance Record.</p>
-
       <h2>2. Lokale Speicherung</h2>
       <p>Informationen, Bilder, Backups und Dateien, die der App hinzugefügt werden, werden lokal auf dem Gerät der Nutzerin oder des Nutzers gespeichert. My Dance Record lädt keine App-Daten auf externe Server hoch und gibt keine App-Daten an Dritte weiter.</p>
-
       <h2>3. Fotos, Dateien und Backups</h2>
       <p>Fotos, exportierte PDFs, Backup-Dateien und Social-Media-Bilder bleiben auf dem Gerät, sofern die Nutzerin oder der Nutzer sie nicht selbst speichert, exportiert oder teilt. Jede Weitergabe wird ausdrücklich durch die Nutzerin oder den Nutzer gestartet und durch das gewählte Ziel kontrolliert.</p>
-
       <h2>4. Kalendereinträge</h2>
       <p>Wenn Kalendereinträge aktiviert werden, kann die App Veranstaltungsdetails wie Veranstaltungsname, Dancer-Name, Datum und Ort in den von der Nutzerin oder dem Nutzer ausgewählten Kalender eintragen oder aktualisieren. Der Kalenderzugriff kann jederzeit in den Geräteeinstellungen geändert werden.</p>
-
       <h2>5. Analyse, Werbung und Tracking</h2>
       <p>Die App verwendet keine Drittanbieter-Analyse, keine Werbung, keine zielgerichtete Werbung und keine Tracking-Technologien.</p>
-
       <h2>6. Teilen</h2>
-      <p>Nutzerinnen und Nutzer können Fotos oder Dateien über die standardmäßigen Teilen-Funktionen ihres Geräts teilen, zum Beispiel über E-Mail, Nachrichten, Dateien, Fotos, Cloud-Speicher oder andere auf dem Gerät verfügbare Ziele. My Dance Record kontrolliert nicht die Datenschutzpraktiken der Ziele, die von der Nutzerin oder dem Nutzer ausgewählt werden.</p>
-
+      <p>Nutzerinnen und Nutzer können Fotos oder Dateien über die standardmäßigen Teilen-Funktionen des Geräts teilen, zum Beispiel über E-Mail, Nachrichten, Dateien, Fotos, Cloud-Speicher oder andere verfügbare Ziele. My Dance Record kontrolliert nicht die Datenschutzpraktiken der Ziele, die von der Nutzerin oder dem Nutzer ausgewählt werden.</p>
       <h2>7. Aufbewahrung und Löschung</h2>
-      <p>Nutzerinnen und Nutzer kontrollieren die in der App gespeicherten Informationen. App-Daten können bearbeitet, exportiert, zurückgesetzt oder durch Deinstallation der App entfernt werden, vorbehaltlich des normalen Backup- und Geräteverwaltungsverhaltens.</p>
-
+      <p>Nutzerinnen und Nutzer kontrollieren die in der App gespeicherten Informationen. App-Daten können bearbeitet, exportiert, zurückgesetzt oder durch Deinstallation der App entfernt werden, vorbehaltlich des normalen Geräte-Backup- und Geräteverwaltungsverhaltens.</p>
       <h2>8. Änderungen dieser Erklärung</h2>
       <p>Diese Erklärung kann von Zeit zu Zeit aktualisiert werden. Wenn sie geändert wird, wird das oben angegebene Gültigkeitsdatum angepasst.</p>
-
       <h2>9. Kontakt</h2>
       <p>Bei Fragen zum Datenschutz kontaktiere bitte <a class="contact" href="mailto:app.my.inventory@gmail.com">app.my.inventory@gmail.com</a>.</p>
     </article>

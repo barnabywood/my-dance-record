@@ -8,3 +8,6 @@ Published pages:
 
 - English: `index.html`
 - German: `de.html`
+- French: `fr.html`
+- Italian: `it.html`
+- Spanish: `es.html`

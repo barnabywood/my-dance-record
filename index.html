@@ -17,9 +17,7 @@
       --pink: #ff6fb7;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -61,14 +59,9 @@
       color: var(--purple);
     }
 
-    p,
-    li {
-      color: var(--muted);
-    }
+    p, li { color: var(--muted); }
 
-    ul {
-      padding-left: 1.2rem;
-    }
+    ul { padding-left: 1.2rem; }
 
     .meta {
       margin: 0 0 2rem;
@@ -78,6 +71,7 @@
 
     .language {
       display: inline-flex;
+      flex-wrap: wrap;
       gap: 0.45rem;
       margin: 0 0 1.5rem;
       padding: 0.35rem;
@@ -99,9 +93,7 @@
       background: linear-gradient(135deg, var(--purple), var(--pink));
     }
 
-    .language a {
-      color: var(--purple);
-    }
+    .language a { color: var(--purple); }
 
     .contact {
       display: inline-block;
@@ -113,9 +105,7 @@
     .contact:focus,
     .contact:hover,
     .language a:focus,
-    .language a:hover {
-      text-decoration: underline;
-    }
+    .language a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -124,6 +114,9 @@
       <nav class="language" aria-label="Language">
         <span>English</span>
         <a href="de.html" hreflang="de">Deutsch</a>
+        <a href="fr.html" hreflang="fr">Français</a>
+        <a href="it.html" hreflang="it">Italiano</a>
+        <a href="es.html" hreflang="es">Español</a>
       </nav>
 
       <h1>My Dance Record Privacy Policy</h1>
@@ -133,28 +126,20 @@
 
       <h2>1. Account and Personal Data</h2>
       <p>The app does not require an account and does not collect, track, or transmit personal data to My Dance Record servers.</p>
-
       <h2>2. Local Storage</h2>
       <p>Information, images, backups, and files added to the app are stored locally on the user's device. No app data is uploaded to external servers by My Dance Record or shared with third parties by My Dance Record.</p>
-
       <h2>3. Photos, Files, and Backups</h2>
       <p>Photos, exported PDFs, backup files, and social images remain on the device unless the user chooses to save, export, or share them. Any sharing is started explicitly by the user and controlled by the destination they choose.</p>
-
       <h2>4. Calendar Entries</h2>
       <p>If the user enables calendar entries, the app may add or update event details such as event name, dancer name, date, and location in the calendar selected by the user. Calendar access can be changed at any time in device settings.</p>
-
       <h2>5. Analytics, Advertising, and Tracking</h2>
       <p>The app does not use third-party analytics, advertising, targeted advertising, or tracking technologies.</p>
-
       <h2>6. Sharing</h2>
       <p>Users may choose to share photos or files using standard device sharing features, such as email, messages, files, photos, cloud storage, or other destinations available on their device. My Dance Record does not control the privacy practices of destinations chosen by the user.</p>
-
       <h2>7. Retention and Deletion</h2>
       <p>Users control the information stored in the app. App data can be edited, exported, reset, or removed by uninstalling the app, subject to normal device backup and device-management behaviour.</p>
-
       <h2>8. Changes to This Policy</h2>
       <p>This policy may be updated from time to time. When it changes, the effective date above will be updated.</p>
-
       <h2>9. Contact</h2>
       <p>If you have privacy questions, contact <a class="contact" href="mailto:app.my.inventory@gmail.com">app.my.inventory@gmail.com</a>.</p>
     </article>
