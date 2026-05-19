@@ -14,3 +14,10 @@ Published pages:
 - Polish: `pl.html`
 - Dutch: `nl.html`
 - Czech: `cs.html`
+- Portuguese: `pt.html`
+- Hungarian: `hu.html`
+- Danish: `da.html`
+- Finnish: `fi.html`
+- Icelandic: `is.html`
+- Norwegian Bokmål: `nb.html`
+- Swedish: `sv.html`
